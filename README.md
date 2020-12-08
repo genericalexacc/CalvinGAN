@@ -1,5 +1,15 @@
 # CalvinGAN
 
+## THIS PROJECT REQUIRES CUDA GPU FOR TRAINING
+
+### `GAN` project
+`./calvin_gan.py` <--- main file containing the GAN model to train and for inference <br />
+`./merge_image_and_text.py` <--- script to merge the GAN images and text file <br />
+`./metrics.ipynb` <--- Notebook to generate metrics on the dataset <br />
+`./pdf_to_png.py` <--- script to split pdf file of comics to png images <br />
+`./split_page_to_panels.py` <--- script to split png images in 4 to get only panels <br />
+
+
 ## Conda environment
 ```console
 foo@bar:~$ conda env create --name calvin -f calvin.yaml
