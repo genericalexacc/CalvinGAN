@@ -26,6 +26,9 @@ foo@bar:~$ jupyter notebook
 
 ## Download links
 Download Comic https://www.pdfdrive.com/calvin-and-hobbes-sunday-pages-1985-1995-e156743420.html
+
 Download Weights (folder "weights"): https://drive.google.com/file/d/1SelVENIDKvm3So1G1iTiAdFfkLZftkiG/view?usp=sharing
+
 Download Real Calvin panels (folder "real"): https://drive.google.com/file/d/1Vq8qqhshJELoLFlvNOcN1ThJIi8DSGkE/view?usp=sharing
+
 Download Fake Calvin panels (folder "image_bank"): https://drive.google.com/file/d/1DmE01n0fsuMIrSBiiDGyDVWswFnaGAID/view?usp=sharing
