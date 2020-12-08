@@ -4,10 +4,21 @@
 
 ### `GAN` project
 `./calvin_gan.py` <--- main file containing the GAN model to train and for inference <br />
-`./merge_image_and_text.py` <--- script to merge the GAN images and text file <br />
+`./merge_image_and_text.ipynb` <--- script to merge the GAN images and text file <br />
 `./metrics.ipynb` <--- Notebook to generate metrics on the dataset <br />
 `./pdf_to_png.py` <--- script to split pdf file of comics to png images <br />
 `./split_page_to_panels.py` <--- script to split png images in 4 to get only panels <br />
+
+* The files should be run in the order:
+   pdf_to_png.py
+   split_page_to_panels.py
+   calvin_gan.py
+   merge_image_and_text.ipynb
+   metrics.ipynb
+   
+* GPU IS REQUIRED.
+* Training takes ~80 hours.
+* The training script saves files to a "weights" directory.
 
 
 ## Conda environment
