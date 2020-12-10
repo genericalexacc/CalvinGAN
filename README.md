@@ -2,6 +2,8 @@
 
 ## THIS PROJECT REQUIRES CUDA GPU FOR TRAINING
 
+![Example of GAN generated comics](https://github.com/genericalexacc/CalvinGAN/raw/master/example.png)
+
 ### `GAN` project
 `./calvin_gan.py` <--- main file containing the GAN model to train and for inference <br />
 `./merge_image_and_text.ipynb` <--- script to merge the GAN images and text file <br />
